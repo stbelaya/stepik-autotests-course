@@ -5,7 +5,7 @@ from selenium import webdriver
 
 from aux_methods import copy_code, find_answer
 
-'''Задание: ждем нужный текст на странице'''
+'''Задание: ждем нужный текст на странице (явные ожидания)'''
 
 try:
     browser = webdriver.Chrome()
